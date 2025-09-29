@@ -1,0 +1,47 @@
+{
+  "name": "@utsutsu/root",
+  "version": "0.0.1",
+  "description": "Monorepo for Utsutsu",
+  "keywords": [
+    "web",
+    "3d",
+    "xr",
+    "game",
+    "engine",
+    "framework"
+  ],
+  "homepage": "https://github.com/yamayuski/utsutsu",
+  "bugs": {
+    "url": "https://github.com/yamayuski/utsutsu/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Masaru Yamagishi",
+    "email": "m.yamagishi90+git@gmail.com",
+    "url": "https://cafe-capy.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamayuski/utsutsu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "biome check",
+    "format": "biome check --write --unsafe",
+    "lint": "biome lint"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": "use pnpm",
+    "yarn": "use pnpm",
+    "pnpm": ">=10.0.0",
+    "deno": "use node",
+    "bun": "use node"
+  },
+  "private": true,
+  "devDependencies": {
+    "@biomejs/biome": "catalog:",
+    "@tsconfig/strictest": "catalog:"
+  },
+  "packageManager": "pnpm@10.17.1"
+}

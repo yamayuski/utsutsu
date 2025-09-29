@@ -1,0 +1,51 @@
+{
+  "name": "@utsutsu/ukiyoe-game-engine",
+  "version": "0.0.1",
+  "description": "Game Engine for Utsutsu",
+  "keywords": [
+    "web",
+    "3d",
+    "xr",
+    "game",
+    "engine",
+    "framework",
+    "editor"
+  ],
+  "homepage": "https://github.com/yamayuski/utsutsu",
+  "bugs": {
+    "url": "https://github.com/yamayuski/utsutsu/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Masaru Yamagishi",
+    "email": "m.yamagishi90+git@gmail.com",
+    "url": "https://cafe-capy.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamayuski/utsutsu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": "use pnpm",
+    "yarn": "use pnpm",
+    "pnpm": ">=10.0.0",
+    "deno": "use node",
+    "bun": "use node"
+  },
+  "private": true,
+  "dependencies": {
+    "@babylonjs/core": "catalog:"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "catalog:",
+    "@tsconfig/vite-react": "catalog:",
+    "@types/node": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
+  },
+  "packageManager": "pnpm@10.17.1"
+}
